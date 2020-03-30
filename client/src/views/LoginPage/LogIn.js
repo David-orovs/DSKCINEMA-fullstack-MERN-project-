@@ -37,31 +37,33 @@ function LoginPage(props) {
           .min(6, 'Password must be at least 6 characters')
           .required('Password is required'),
       })}
-      onSubmit={(values, { setSubmitting }) => {
+      onSubmit={async (values, { setSubmitting }) => {
         setTimeout(async () => {
           let dataToSubmit = {
             email: values.email,
             password: values.password
           };
           console.log('yuuyuy')
-          
-       dispatch(loginUser(dataToSubmit))
-          .then(response => {
-            if (response.token) {
-              
+
+
+          try {
+            const response = await dispatch(loginUser(dataToSubmit))
+            if (response.payload.token) {
               props.history.push('/')
-              
             } else {
               setFormErrorMessage('Check out your Account or Password again')
               console.log('e no ')
             }
-          })
-          .catch(err => {
-              setFormErrorMessage('Check out your Account or Password again')
-              setTimeout(() => {
-                setFormErrorMessage("")
-              }, 3000);
-            });
+
+          } catch (e) {
+            setFormErrorMessage('Check out your Account or Password again')
+            setTimeout(() => {
+              setFormErrorMessage("")
+            }, 3000);
+          }
+
+
+
           setSubmitting(false);
         }, 500);
       }}
