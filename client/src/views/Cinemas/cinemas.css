@@ -1,0 +1,51 @@
+.cinemas__main{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 2px;
+}
+.cinemas__image{
+    width: 50%;
+}
+.cinemasmain__text{
+    color:white;
+    position: absolute;
+    width: 100%;
+    bottom: 40%;
+    font-size: 40px;
+    text-align: center;
+
+}
+.thespan{
+    font-size: 23px;
+}
+.our__cinemas{
+    width: 90%;
+    margin: 0 auto;
+    padding-top:80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+.images__div{
+    width:28%;
+    margin-bottom: 80px;
+    position: relative;
+    padding:1px;
+    
+    overflow: hidden;
+}
+.our__cinema__images{
+    width: 100%;
+    position: relative;
+    opacity: 0.7;
+}
+.thespann{
+    position: absolute;
+    color: white;
+    bottom: 1rem;
+    padding-right: 5px;
+}

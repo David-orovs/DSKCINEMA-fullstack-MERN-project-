@@ -1,0 +1,21 @@
+.contact{
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    /* background: red; */
+    
+
+}
+.latest{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4vw;
+    
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}

@@ -1,0 +1,24 @@
+.navbar{
+    height: 70px;
+    /* background: black;
+    opacity: 0.3; */
+    color: red;
+    margin:10px;
+    padding-top: 9px;
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    align-content: space-around;  
+}
+.options a{
+    margin-right: 20px;
+}
+.ghi{
+    background-color: red;
+    padding: 5px;
+    border: 2px, solid, gold;
+}

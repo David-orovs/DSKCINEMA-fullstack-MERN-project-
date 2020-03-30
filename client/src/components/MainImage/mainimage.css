@@ -1,0 +1,19 @@
+.title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+.textt{
+    color: white;
+    font-size: 20px;
+}
+.book{
+    color: white;
+    background: red;
+    opacity: 0.7;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    
+}

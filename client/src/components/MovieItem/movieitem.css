@@ -1,0 +1,21 @@
+.movieitem{
+    max-width: 30%;
+    height: 320px;
+    flex: 1 1 auto;
+    position: relative;
+    
+    margin-left: 10px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 7.5px 15px;
+    overflow: hidden;
+}
+.movieitem:hover{
+    transform: scale(1.1);
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    opacity: 0.5;
+    overflow: hidden;
+}

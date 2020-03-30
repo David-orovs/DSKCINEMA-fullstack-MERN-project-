@@ -1,0 +1,21 @@
+.aboutus__main{
+    color: black;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+.aboutus__header{
+    color: red;
+    font-size: 50px;
+    
+}
+.aboutus__text{
+    font-size: 25px;
+    padding: 4px;
+    
+}
+.aboutus__section{
+    width: 80%;
+    margin: 0 auto;
+}

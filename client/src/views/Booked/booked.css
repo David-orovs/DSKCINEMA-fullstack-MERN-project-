@@ -1,0 +1,13 @@
+.booked__page{
+    width: 80%;
+    margin: 0 auto;
+    color:white;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+}
+.remove-button{
+    margin: 5px;
+}
