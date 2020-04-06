@@ -2,7 +2,7 @@ import React from 'react'
 import './mainimage.css'
 export default function MainImage(props) {
     return (
-        <div style={{
+        <div className='mainmovieimage' style={{
             background: `url(${props.image})`,
             backgroundRepeat:'no-repeat',
             backgroundSize:'cover',
@@ -10,7 +10,7 @@ export default function MainImage(props) {
             height: '580px',
             position: 'relative'
         }}> 
-            <div style={{ position: 'absolute', maxWidth: '500px', bottom: '2rem', marginLeft: '80px' }}>
+            <div className="image__textt" >
                 <h2 className='title'>{props.title}</h2>
                 <p className='textt'>{props.text}</p>
                 {/* <div className='book'><h1>BOOK NOW</h1></div> */}

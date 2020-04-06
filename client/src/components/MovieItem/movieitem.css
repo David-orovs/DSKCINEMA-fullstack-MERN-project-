@@ -19,3 +19,14 @@
     opacity: 0.5;
     overflow: hidden;
 }
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .movieitem{
+        display: block;
+        max-width: 100%;
+    }
+    .book{
+        margin: 0 auto;
+    }
+    
+  }

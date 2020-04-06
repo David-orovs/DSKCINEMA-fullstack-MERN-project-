@@ -20,6 +20,7 @@ function App() {
   return (      
       <div>
         <NavBar />
+        {/* <MobileNav /> */}
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path='/aboutus' component={AboutUs} />

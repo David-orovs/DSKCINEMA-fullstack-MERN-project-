@@ -12,3 +12,9 @@ a {
 * {
   box-sizing: border-box;
 }
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .navbaaa{
+    display: none;
+  }
+}
